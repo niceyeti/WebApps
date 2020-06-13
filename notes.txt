@@ -1,0 +1,37 @@
+https://github.com/shrestharosy/mobx-demo-post-reactions/tree/develop/src/components
+Primary: see react tutorial: https://reactjs.org/tutorial/tutorial.html
+
+* React components take in values as parameters, props, and returns a hierarchy of views.
+
+
+
+* Immutability--setting entire state instead of subcomponents of it--leads to pure components.
+* A subcomponent into which props of a parent are passed is a "controlled component" (haughty name for a child). Also a "function component", a component with no state of its own (this would probably be a private class in c#/bridge.
+* Create state in constructor:
+	class SomeComponent extends React.Component
+	{
+		constructor(props){
+			this.state = {
+				someAttribute=1,
+				thing = "stuff",
+			};
+		}
+	
+	}
+
+* Function components have no state, only a render() function:
+		function Square(props) {
+		  return (
+			<button className="square" onClick={props.onClick}>
+			  {props.value}
+			</button>
+		  );
+		}
+
+
+
+
+
+
+
+

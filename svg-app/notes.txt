@@ -1,0 +1,22 @@
+This project was built with create-react-app. Run create-react-app, and place
+index.js and index.css to src/. Then run `npm start`.
+
+
+To run: cd into src/ then run `npm start`.
+
+
+TestRequester
+- request data, no query (GET)
+- return 100 points
+- no requester needed right now, just run a loop to update data randomly
+
+
+XYComponent
+XYMarker
+
+
+
+
+
+
+
