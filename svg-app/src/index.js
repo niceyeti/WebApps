@@ -81,7 +81,7 @@ class XYChartApp extends React.Component {
 	constructor(props){
 		super(props);
 
-		this.numPoints = 5000;
+		this.numPoints = 100;
 		this.xMax = 500;
 		this.yMax = 500;
 		this.updateIntervalMS = 3000;
